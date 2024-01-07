@@ -56,6 +56,7 @@ namespace CityService.Controllers.Tests
 
             cityServiceMock.Setup(service => service.AddAsync(It.IsAny<City>()))
                 .ReturnsAsync(new City { Id = 1, Name = "TestCity" });
+            
             httpClientFactoryMock.Setup(factory => factory.CreateClient(It.IsAny<string>()))
               .Returns(httpClientMock.Object);
             handlerMock.Protected()

@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityService", "CityService\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistrictService", "DistrictService\DistrictService.csproj", "{A342935C-C85D-4C6D-9A06-C5EEEE72272A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityServiceTests", "CityServiceTests\CityServiceTests.csproj", "{1DA0CA85-10DC-42C1-8A84-7280B495F852}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityServiceTests", "CityServiceTests\CityServiceTests.csproj", "{1DA0CA85-10DC-42C1-8A84-7280B495F852}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistrictServiceTests", "DistrictServiceTests\DistrictServiceTests.csproj", "{7E4DBF12-08B4-4D43-B402-5DF8A7FDF6BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistrictServiceTests", "DistrictServiceTests\DistrictServiceTests.csproj", "{7E4DBF12-08B4-4D43-B402-5DF8A7FDF6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityServiceTestsWithXUnit", "CityServiceTestsWithXUnit\CityServiceTestsWithXUnit.csproj", "{50C17BB0-AC3E-400D-AADF-1931EE10D2DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7E4DBF12-08B4-4D43-B402-5DF8A7FDF6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E4DBF12-08B4-4D43-B402-5DF8A7FDF6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E4DBF12-08B4-4D43-B402-5DF8A7FDF6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C17BB0-AC3E-400D-AADF-1931EE10D2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C17BB0-AC3E-400D-AADF-1931EE10D2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C17BB0-AC3E-400D-AADF-1931EE10D2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C17BB0-AC3E-400D-AADF-1931EE10D2DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

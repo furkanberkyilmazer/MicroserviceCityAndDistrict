@@ -16,6 +16,7 @@ namespace CityService.Controllers
     public class CityController : ControllerBase
     {
         private readonly ICityService _cityService;
+
        
         public CityController(ICityService cityService)
         {
