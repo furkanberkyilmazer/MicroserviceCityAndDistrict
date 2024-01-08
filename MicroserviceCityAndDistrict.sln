@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistrictServiceTests", "Dis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityServiceTestsWithXUnit", "CityServiceTestsWithXUnit\CityServiceTestsWithXUnit.csproj", "{50C17BB0-AC3E-400D-AADF-1931EE10D2DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistrictServiceTestsWithXUnit", "DistrictServiceTestsWithXUnit\DistrictServiceTestsWithXUnit.csproj", "{3F2D72F9-5408-4497-9313-22A12FBFA7AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{50C17BB0-AC3E-400D-AADF-1931EE10D2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50C17BB0-AC3E-400D-AADF-1931EE10D2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50C17BB0-AC3E-400D-AADF-1931EE10D2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2D72F9-5408-4497-9313-22A12FBFA7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2D72F9-5408-4497-9313-22A12FBFA7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2D72F9-5408-4497-9313-22A12FBFA7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2D72F9-5408-4497-9313-22A12FBFA7AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

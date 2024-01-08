@@ -8,12 +8,12 @@ namespace DistrictService.DataAccess.EntityFramework
     public class GenericDal<T> : IGenericDal<T> where T : class
     {
 
-        protected readonly DistrictDbContext _cityDbContext;
+        protected readonly DistrictDbContext _districtDbContext;
         private readonly DbSet<T> _dbSet;
-        public GenericDal(DistrictDbContext cityDbContext)
+        public GenericDal(DistrictDbContext districtDbContext)
         {
-            _cityDbContext = cityDbContext;
-            _dbSet = _cityDbContext.Set<T>();
+            _districtDbContext = districtDbContext;
+            _dbSet = _districtDbContext.Set<T>();
         }
         public async Task AddAsync(T entity)
         {

@@ -36,9 +36,9 @@ namespace CityServiceTestsWithXUnit.Controllers
 
             var OkResult = Assert.IsType<OkObjectResult>(result);
 
-            var returnProducts = Assert.IsAssignableFrom<IEnumerable<City>>(OkResult.Value);
+            var returnValue = Assert.IsAssignableFrom<IEnumerable<City>>(OkResult.Value);
 
-            Assert.Equal(2, returnProducts.Count());
+            Assert.Equal(2, returnValue.Count());
 
         }
 
